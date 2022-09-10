@@ -109,6 +109,20 @@ AIAS不再持续维护的项目集。
         <img src="https://aias-home.oss-cn-beijing.aliyuncs.com/AIAS/object_detection_sdk/SSDResnet50Detection.png"  width = "400px"/>
         </div>
       </td>
+    </tr> 
+    <tr>
+      <td style="width:220px">
+        <div align="left">
+          <p>face_feature_sdk</p>  
+          <p>人脸特征提取与比对SDK</p>
+          <p>框架：PyTroch</p>     
+        </div>
+      </td>     
+      <td>
+        <div align="center">
+        <img src="https://aias-home.oss-cn-beijing.aliyuncs.com/AIAS/face_sdk/images/face_sdk.png"  width = "400px"/>
+        </div>
+      </td>
     </tr>                                             
   </table>
 </div>
