@@ -123,7 +123,35 @@ AIAS不再持续维护的项目集。
         <img src="https://aias-home.oss-cn-beijing.aliyuncs.com/AIAS/face_sdk/images/face_sdk.png"  width = "400px"/>
         </div>
       </td>
-    </tr>                                             
+    </tr> 
+    <tr>
+      <td style="width:220px">
+        <div align="left">
+          <p>biggan_sdk</p>  
+          <p>BIGGAN 图像自动生成SDK</p>
+          <p>框架：PyTroch</p>     
+        </div>
+      </td>     
+      <td>
+        <div align="center">
+        <img src="https://aias-home.oss-cn-beijing.aliyuncs.com/AIAS/biggan_sdk/image11.png"  width = "400px"/>
+        </div>
+      </td>
+    </tr>  
+    <tr>
+      <td style="width:220px">
+        <div align="left">
+          <p>style_transfer_sdk</p>  
+          <p>风格迁移(预定义4种)SDK</p>
+          <p>框架：PyTroch</p>     
+        </div>
+      </td>     
+      <td>
+        <div align="center">
+        <img src="https://aias-home.oss-cn-beijing.aliyuncs.com/AIAS/gan_sdks/cezanne.png"  width = "400px"/>
+        </div>
+      </td>
+    </tr>                                              
   </table>
 </div>
 
