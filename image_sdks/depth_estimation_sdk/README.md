@@ -2,11 +2,14 @@
 http://aias.top/
 
 
-# 单目深度估计SDK
+### 单目深度估计SDK
 SDK使用MiDaS_Small实现。
 MiDaS_Small是一个单目深度估计模型，模型可通过输入图像估计其中的深度信息。
 数据集：3D Movies, WSVD, ReDWeb, MegaDepth, etc.           
-                
+
+### 下载模型，放置于models目录
+- 链接: https://pan.baidu.com/s/1tnFVGGZf3ffuibrfZWY_QQ?pwd=sy76
+
 ### SDK功能：
 -  单目深度估计
 

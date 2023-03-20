@@ -1,6 +1,9 @@
 ### 官网：
 [官网链接](https://www.aias.top/)
 
+### 下载模型，放置于models目录
+- 链接: https://pan.baidu.com/s/1zggYV6brE_LHZGV42o2XZg?pwd=emgx
+
 ### 风格迁移(预定义4种)SDK
 风格迁移可以把一张图片转换成另一种风格。本sdk预定义了4种画风：
 - 塞尚(Paul Cezanne, 1838～1906)

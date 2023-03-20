@@ -53,9 +53,7 @@ public final class Inceptionv3ActionRecognition {
         Criteria.builder()
             .optEngine("MXNet")
             .setTypes(Image.class, Classifications.class)
-            .optModelUrls(
-                "https://aias-home.oss-cn-beijing.aliyuncs.com/models/inceptionv3_ucf101.zip")
-            // .optModelUrls("/Users/calvin/Documents/build/mxnet_models/inceptionv3_ucf101/")
+            .optModelPath(Paths.get("models/inceptionv3_ucf101.zip"))
             .optTranslator(translator)
             .optProgress(new ProgressBar())
             .build();

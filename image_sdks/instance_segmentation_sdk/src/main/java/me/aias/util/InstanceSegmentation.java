@@ -51,9 +51,7 @@ public final class InstanceSegmentation {
         Criteria.builder()
             .optEngine("MXNet") // Use MxNet engine
             .setTypes(Image.class, DetectedObjects.class)
-            .optModelUrls(
-                "https://aias-home.oss-cn-beijing.aliyuncs.com/models/mask_rcnn_resnet18_v1b_coco.zip")
-            // .optModelUrls("/Users/calvin/Documents/build/tf_models/mask_rcnn_resnet18_v1b_coco/")
+            .optModelPath(Paths.get("models/mask_rcnn_resnet18_v1b_coco.zip"))
             .optTranslator(translator)
             .optProgress(new ProgressBar())
             .build();

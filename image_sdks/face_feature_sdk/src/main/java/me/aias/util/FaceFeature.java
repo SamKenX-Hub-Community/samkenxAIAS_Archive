@@ -13,9 +13,8 @@ public final class FaceFeature {
     Criteria<Image, float[]> criteria =
         Criteria.builder()
             .setTypes(Image.class, float[].class)
-            .optModelUrls(
-                "https://aias-home.oss-cn-beijing.aliyuncs.com/models/face/face_feature.zip")
-            .optModelName("face_feature") // specify model file prefix
+            .optModelPath(Paths.get("models/face_feature.zip"))
+            .optModelName("face_feature")
             .optTranslator(new FaceFeatureTranslator())
             .optProgress(new ProgressBar())
             .optEngine("PyTorch") // Use PyTorch engine

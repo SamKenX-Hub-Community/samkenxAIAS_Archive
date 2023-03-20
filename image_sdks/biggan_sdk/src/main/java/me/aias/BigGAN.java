@@ -14,6 +14,8 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import java.io.IOException;
+import java.nio.file.Path;
+import java.nio.file.Paths;
 
 /**
  * An example of generation using BigGAN.
@@ -44,16 +46,16 @@ public final class BigGAN {
 
     public Criteria<Long, Image> generate(int size, float truncation) {
 
-        String url = null;
+        Path modelPath = Paths.get("models/biggan128.zip");
         if (size == 128) {
             size = 120;
-            url = "https://aias-home.oss-cn-beijing.aliyuncs.com/models/biggan128.zip";
+            modelPath = Paths.get("models/biggan128.zip");
         } else if (size == 256) {
             size = 140;
-            url = "https://aias-home.oss-cn-beijing.aliyuncs.com/models/biggan256.zip";
+            modelPath = Paths.get("/models/biggan256.zip");
         } else if (size == 512) {
             size = 128;
-            url = "https://aias-home.oss-cn-beijing.aliyuncs.com/models/biggan512.zip";
+            modelPath = Paths.get("models/biggan512.zip");
         }
 
         BigGANTranslator translator = new BigGANTranslator(size, truncation);
@@ -61,9 +63,7 @@ public final class BigGAN {
                 Criteria.builder()
                         .optEngine("PyTorch") // Use PyTorch engine
                         .setTypes(Long.class, Image.class)
-                        .optModelUrls(url)
-                        //            .optModelUrls("/Users/calvin/BigGAN-Generator-Pretrained-Pytorch/")
-                        //            .optModelName("traced_biggan512_model")
+                        .optModelPath(modelPath)
                         .optTranslator(translator)
                         .optProgress(new ProgressBar())
                         .build();

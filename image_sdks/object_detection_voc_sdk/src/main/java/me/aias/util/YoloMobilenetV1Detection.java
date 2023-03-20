@@ -53,9 +53,7 @@ public final class YoloMobilenetV1Detection {
         Criteria.builder()
             .optEngine("MXNet")
             .setTypes(Image.class, DetectedObjects.class)
-            .optModelUrls(
-                "https://aias-home.oss-cn-beijing.aliyuncs.com/models/yolo_voc_mobilenetv1.zip")
-            // .optModelUrls("/Users/calvin/Documents/build/mxnet_models/yolo_voc_mobilenetv1/")
+            .optModelPath(Paths.get("models/yolo_voc_mobilenetv1.zip"))
             .optTranslator(translator)
             .optProgress(new ProgressBar())
             .build();

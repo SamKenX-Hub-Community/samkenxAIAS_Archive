@@ -53,9 +53,7 @@ public final class Vgg16ActionRecognition {
         Criteria.builder()
             .optEngine("MXNet")
             .setTypes(Image.class, Classifications.class)
-            .optModelUrls(
-                "https://aias-home.oss-cn-beijing.aliyuncs.com/models/vgg16_ucf101.zip")
-            // .optModelUrls("/Users/calvin/Documents/build/mxnet_models/vgg16_ucf101/")
+            .optModelPath(Paths.get("models/vgg16_ucf101.zip"))
             .optTranslator(translator)
             .optProgress(new ProgressBar())
             .build();

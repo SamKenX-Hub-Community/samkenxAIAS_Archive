@@ -19,14 +19,13 @@ public final class StyleTransfer {
   public Criteria<Image, Image> criteria(Artist artist) {
 
     String modelName = "style_" + artist.toString().toLowerCase() + ".zip";
-    String modelUrl =
-        "https://aias-home.oss-cn-beijing.aliyuncs.com/models/gan_models/" + modelName;
+    String modelPath = "models/" + modelName;
 
     Criteria<Image, Image> criteria =
         Criteria.builder()
             .setTypes(Image.class, Image.class)
             .optEngine("PyTorch") // Use PyTorch engine
-            .optModelUrls(modelUrl)
+             .optModelPath(Paths.get(modelPath))
             .optProgress(new ProgressBar())
             .optDevice(Device.cpu())
             .optTranslatorFactory(new StyleTransferTranslatorFactory())

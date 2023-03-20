@@ -1,8 +1,11 @@
 ## 目录：
 http://aias.top/
 
-# 目标检测(支持voc数据集分类)SDK
+### 目标检测(支持voc数据集分类)SDK
 检测图片中20个分类的目标。
+
+### 下载模型，放置于models目录
+- 链接: https://pan.baidu.com/s/1JWclAwsexXqtR90ZEi9mQg?pwd=pus7
 
 ### 支持分类如下：
 - aeroplane

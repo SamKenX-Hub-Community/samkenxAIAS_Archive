@@ -50,8 +50,7 @@ public final class MobilenetClassification {
         Criteria.builder()
             .optEngine("MXNet")
             .setTypes(Image.class, Classifications.class)
-             .optModelUrls("https://aias-home.oss-cn-beijing.aliyuncs.com/models/mobilenetv3_small.zip")
-//            .optModelUrls("/Users/calvin/Documents/build/mxnet_models/mobilenetv3_small/")
+            .optModelPath(Paths.get("models/mobilenetv3_small.zip"))
             .optTranslator(translator)
             .optProgress(new ProgressBar())
             .build();

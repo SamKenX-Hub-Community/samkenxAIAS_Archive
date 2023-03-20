@@ -52,8 +52,7 @@ public final class SSDMobilenetV2Detection {
                     .optEngine("TensorFlow") // Use TensorFlow engine
                     .optOption("Tags", "")
                     .setTypes(Image.class, DetectedObjects.class)
-                    .optModelUrls("https://aias-home.oss-cn-beijing.aliyuncs.com/models/tf_mobilenetv2.zip")
-//            .optModelUrls("/Users/calvin/Documents/build/tf_models/tf_mobilenet_v2/")
+                    .optModelPath(Paths.get("models/tf_mobilenetv2.zip"))
                     .optTranslator(translator)
                     .optProgress(new ProgressBar())
                     .build();

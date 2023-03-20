@@ -1,9 +1,12 @@
 ## 目录：
 http://aias.top/
 
-# 行为识别(支持ucf101数据集分类)SDK
+### 行为识别(支持ucf101数据集分类)SDK
 识别图片中101种行为。
 
+### 下载模型，放置于models目录
+- 链接: https://pan.baidu.com/s/1qwwCTKMRHRkt1bG4lpE7bg?pwd=fkpk
+- 
 ### 支持分类如下：
 - ApplyEyeMakeup
 - ApplyLipstick

@@ -23,8 +23,7 @@ public final class DepthEstimation {
         Criteria.builder()
             .optEngine("PaddlePaddle")
             .setTypes(Image.class, float[][].class)
-            .optModelUrls("https://aias-home.oss-cn-beijing.aliyuncs.com/models/MiDaS_Small.zip")
-            //            .optModelUrls("/Users/calvin/Documents/build/paddle_models/MiDaS_Small/")
+            .optModelPath(Paths.get("models/MiDaS_Small.zip"))
             .optTranslator(new FeatureTranslator())
             .optProgress(new ProgressBar())
             .build();

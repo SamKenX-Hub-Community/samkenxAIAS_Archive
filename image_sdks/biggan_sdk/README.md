@@ -5,6 +5,10 @@
 ### BIGGAN 图像自动生成SDK
 能够自动生成1000种类别（支持imagenet数据集分类）的图片。
 
+### 下载模型，放置于models目录
+- 链接: https://pan.baidu.com/s/1alfNcxcTAU2XLeyHFogysg?pwd=3wbd
+
+
 ### 支持分类如下：
 -  tench, Tinca tinca
 -  goldfish, Carassius auratus

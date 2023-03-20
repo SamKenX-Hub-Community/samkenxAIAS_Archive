@@ -1,8 +1,11 @@
 ## 目录：
 http://aias.top/
 
-# 目标检测(支持601分类)SDK
+### 目标检测(支持601分类)SDK
 检测图片中601个分类的目标。
+
+### 下载模型，放置于models目录
+- 链接: https://pan.baidu.com/s/1rpOfGCbIv9sj3Jqeo_vg3w?pwd=qkfq
 
 ### 支持openimages_v4数据集分类如下：
 - Tortoise

@@ -2,8 +2,11 @@
 http://aias.top/
 
 
-# 图片分类(支持imagenet数据集分类)SDK
+### 图片分类(支持imagenet数据集分类)SDK
 识别图片1000种分类。
+
+### 下载模型，放置于models目录
+- 链接: https://pan.baidu.com/s/16EQetyebbh5JfuGLMVNcCg?pwd=h854
 
 ### 支持分类如下：
 -  tench, Tinca tinca
