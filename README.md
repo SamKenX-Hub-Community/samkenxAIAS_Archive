@@ -22,7 +22,7 @@ AIAS不再持续维护的项目集。
       </td>     
       <td>
         <div align="center">
-        <img src="https://aias-home.oss-cn-beijing.aliyuncs.com/AIAS/object_detection_sdk/SSDResnet50Detection.png" width = "400px"/>
+        <img src="https://aias-home.oss-en-beijing.aliyuncs.com/AIAS/object_detection_sdk/SSDResnet50Detection.png" width = "400px"/>
         </div>
       </td>
     </tr> 
@@ -36,7 +36,7 @@ AIAS不再持续维护的项目集。
       </td>     
       <td>
         <div align="center">
-        <img src="https://aias-home.oss-cn-beijing.aliyuncs.com/AIAS/classification_imagenet_sdk/cup.jpeg"  width = "400px"/>
+        <img src="https://aias-home.oss-en-beijing.aliyuncs.com/AIAS/classification_imagenet_sdk/cup.jpeg"  width = "400px"/>
         </div>
       </td>
     </tr>     
@@ -50,7 +50,7 @@ AIAS不再持续维护的项目集。
       </td>     
       <td>
         <div align="center">
-        <img src="https://aias-home.oss-cn-beijing.aliyuncs.com/AIAS/depth_estimation_sdk/depth.png" width = "400px"/>
+        <img src="https://aias-home.oss-en-beijing.aliyuncs.com/AIAS/depth_estimation_sdk/depth.png" width = "400px"/>
         </div>
       </td>
     </tr> 
@@ -64,7 +64,7 @@ AIAS不再持续维护的项目集。
       </td>     
       <td>
         <div align="center">
-        <img src="https://aias-home.oss-cn-beijing.aliyuncs.com/AIAS/Instance_segmentation_sdk/result.jpeg"  width = "400px"/>
+        <img src="https://aias-home.oss-en-beijing.aliyuncs.com/AIAS/Instance_segmentation_sdk/result.jpeg"  width = "400px"/>
         </div>
       </td>
     </tr>  
@@ -78,7 +78,7 @@ AIAS不再持续维护的项目集。
       </td>     
       <td>
         <div align="center">
-        <img src="https://aias-home.oss-cn-beijing.aliyuncs.com/AIAS/object_detection_sdk/YoloMobilenetV1Detection.png" width = "400px"/>
+        <img src="https://aias-home.oss-en-beijing.aliyuncs.com/AIAS/object_detection_sdk/YoloMobilenetV1Detection.pnge" width = "400px"/>
         </div>
       </td>
     </tr> 
@@ -92,7 +92,7 @@ AIAS不再持续维护的项目集。
       </td>     
       <td>
         <div align="center">
-        <img src="https://aias-home.oss-cn-beijing.aliyuncs.com/AIAS/object_detection_sdk/SSDMobilenetV2Detection.png"  width = "400px"/>
+        <img src="https://aias-home.oss-en-beijing.aliyuncs.com/AIAS/object_detection_sdk/SSDMobilenetV2Detection.png"  width = "400px"/>
         </div>
       </td>
     </tr>
@@ -106,7 +106,7 @@ AIAS不再持续维护的项目集。
       </td>     
       <td>
         <div align="center">
-        <img src="https://aias-home.oss-cn-beijing.aliyuncs.com/AIAS/object_detection_sdk/SSDResnet50Detection.png"  width = "400px"/>
+        <img src="https://aias-home.oss-en-beijing.aliyuncs.com/AIAS/object_detection_sdk/SSDResnet50Detection.png"  width = "400px"/>
         </div>
       </td>
     </tr> 
